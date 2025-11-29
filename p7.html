@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Skogskanten accessories earrings webshop">
+    <title>Skogskanten Creations</title>
+    <link rel="icon" type="image/x-icon" href="/images/transparent/favicon_io/favicon-32x32.png">
+    <link rel="stylesheet" href="styles.css">
+    <script src="productpage.js" defer></script>
+    <script src="webshop.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <div class="logotype">
+            <a href="index.html"><img src="images/transparent/logo.svg" alt="logo" width="40" height="40">
+                <h1>Skogskanten Creations</h1>
+            </a>
+            <div class="sideicons" id="basket-holder">
+                <a href="basket.html">
+                    <ul id="small-basket">
+                        <li></li>
+                    </ul><img src="images/transparent/shoppingbag.png" alt="Your Shopping cart" width="32" height="32">
+                </a>
+            </div>
+        </div>
+        <!--Navigation-->
+        <nav class="main_nav">
+            <ul>
+                <li><a href="webshop.html">WEBSHOP</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+            </ul>
+        </nav>
+    </header>
+       
+    <div class="productInfo"> 
+           <!-- Container for the image slide from W3SCHOOLS-->
+        <div class="container">
+            <!-- Full-width images with number text -->
+            <div class="mySlides">
+                <div class="numbertext">1 / 1</div>
+            <img src="images/products/bambu.jpg" width="635" height="635" style="width:100%" alt="Bambu Earring">
+            </div>
+           <!-- Container for the image gallery -->
+                <!-- Next and previous buttons -->
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+                <!-- Thumbnail images -->
+                <div class="row">
+                    <div class="column">
+                        <img class="demo cursor" src="images/products/bambu_small.jpg" width="105" height="105" style="width:100%"
+                            onclick="currentSlide(4)" alt="Bambu Earring">
+                    </div>
+                </div>
+
+            </div> <div class="productText"> <h2>Shop product</h2>
+            <h3>Bambu</h3>
+            <p>129 SEK</p>
+            <p>Earrings</p>
+            <p>Green</p>
+            <div class="button_container"><div id="notify"></div>
+                <button
+                    onclick="addToBasket(this, '07', 'Bambu', '129', 'images/products/bambu_small.jpg', true)"
+                    class="shopbutton3">Add
+                    to
+                    shopping bag
+                </button>
+                <a href="webshop.html" class="shopbutton">Go back
+                </a>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="footercontact">
+            <p>Tottebovägen 43X 213 00 Nelson</p>
+            <p>123 321 XX</p>
+            <p>hello.skogskanten@gmail.com</p>
+        </div>
+        <img src="images/transparent/trees_icon.svg" alt="" width="40" height="40">
+        <div class="mediaicons">
+            <img src="images/transparent/facebook.svg" alt="Facebook" width="40" height="40">
+            <img src="images/transparent/instagram.svg" alt="Instagram" width="40" height="40">
+        </div>
+
+        <div class="copyright">
+            <p>© Skogskanten Creations, 2024</p>
+        </div>
+    </footer>
+</body>
+</html>

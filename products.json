@@ -1,0 +1,108 @@
+[
+    {
+        "id": "/necklace.html",
+        "name": "Gran",
+        "category": "Necklace",
+        "price": 199,
+        "color": "Brown/orange",
+        "smallimages": {
+            "webp": "images/products/necklace3_small.webp",
+            "jpeg": "images/products/necklace3_small.jpg"
+        }
+    },
+    {
+        "id": "/p1.html",
+        "name": "Horisont",
+        "category": "Earrings",
+        "price": 129,
+        "color": "Blue",
+        "smallimages": {
+            "webp": "images/products/horisont2_small.webp",
+            "jpeg": "images/products/horisont2_small.jpg"
+        }
+    },
+    {
+        "id": "/p2.html",
+        "name": "Solnedgång",
+        "category": "earrings",
+        "price": 139,
+        "color": "yellow",
+        "smallimages": {
+            "webp": "images/products/solnedgang_small.webp",
+            "jpeg": "images/products/solnedgang_small.jpg"
+        },
+        "productpageimages": {
+            "webp": "images/products/solnedgang.webp",
+            "jpeg": "images/products/solnedgang.jpg"
+        }
+    },
+    {
+        "id": "/p3.html",
+        "name": "Diamant",
+        "category": "Earrings",
+        "price": 129,
+        "color": "N/A, Wood",
+        "smallimages": {
+            "webp": "images/products/diamant2_small.webp",
+            "jpeg": "images/products/diamant2_small.jpg"
+        }
+    },
+    {
+        "id": "/p4.html",
+        "name": "Segel",
+        "category": "Earrings",
+        "price": 129,
+        "color": "Blue",
+        "smallimages": {
+            "webp": "images/products/segel_small.webp",
+            "jpeg": "images/products/segel_small.jpg"
+        }
+    },
+    {
+        "id": "/p5.html",
+        "name": "Droppe",
+        "category": "Earrings",
+        "price": 139,
+        "color": "Yellow/Brown",
+        "smallimages": {
+            "webp": "images/products/droppe2_small.webp",
+            "jpeg": "images/products/droppe2_small.jpg"
+        }
+    },
+    {
+        "id": "/p6.html",
+        "name": "Bergstopp",
+        "category": "Earrings",
+        "price": 129,
+        "color": "Brown",
+        "smallimages": {
+            "webp": "images/products/bergstopp3_small.webp",
+            "jpeg": "images/products/bergstopp3_small.jpg"
+        },
+        "bigimages": [
+            {
+                "webp": "images/products/bergstopp1_1000.webp",
+                "jpeg": "images/products/bergstopp1_1000.jpg"
+            },
+            {
+                "webp": "images/products/bergstopp2_1000.webp",
+                "jpeg": "images/products/bergstopp2_1000.jpg"
+            },
+            {
+                "webp": "images/products/bergstopp3_1000.webp",
+                "jpeg": "images/products/bergstopp3.jpg"
+            }
+        ]
+    },
+    {
+        "id": "/p7.html",
+        "name": "Bambu",
+        "category": "Earrings",
+        "price": 129,
+        "color": "Green",
+        "smallimages": {
+            "webp": "images/products/bambu_small.webp",
+            "jpeg": "images/products/bambu_small.jpg"
+        }
+    }
+]
